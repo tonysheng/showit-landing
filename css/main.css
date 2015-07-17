@@ -1,0 +1,167 @@
+/*imports*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Domine);
+/*config styles*/
+/*utility*/
+.only-mobile {
+  display: none; }
+
+@media screen and (max-width: 48em) {
+  .only-mobile {
+    display: block; }
+
+  .hide-mobile {
+    display: none; } }
+/*general styling*/
+html {
+  font-size: 18px;
+  font-family: "Domine", serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #FF2D55;
+  -webkit-print-color-adjust: exact; }
+
+@media screen and (max-width: 48em) {
+  html {
+    font-size: 14px; } }
+body {
+  /*48,62,75*/
+  margin: 0 auto; }
+
+.masthead__container, .hero__container, .uses__container, .howto__container, .cta__container, .footer__container {
+  max-width: 75em;
+  margin: 0 auto; }
+
+h1 {
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2rem;
+  line-height: 120%; }
+
+h2 {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2rem;
+  line-height: 120%; }
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 150%;
+  margin-bottom: 2rem; }
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 150%;
+  margin-bottom: 2rem; }
+
+p, ul, li {
+  font-size: 1rem;
+  line-height: 150%; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+/*nav*/
+.masthead__container {
+  padding: 2em; }
+
+.masthead__container__menu {
+  text-align: right; }
+  .masthead__container__menu li {
+    display: inline-block;
+    margin-left: .5rem;
+    margin-right: .5rem; }
+
+.masthead__container__logo {
+  color: white;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif; }
+  .masthead__container__logo img {
+    vertical-align: middle; }
+
+.masthead__container__logo, .masthead__container__menu {
+  vertical-align: middle; }
+
+/*hero*/
+.hero__container {
+  margin-top: 4em;
+  padding: 2em;
+  padding-top: 1em;
+  padding-bottom: 0;
+  margin-bottom: 8em; }
+
+@media screen and (max-width: 48em) {
+  .hero__container__headline {
+    text-align: center; } }
+.hero__container__image {
+  text-align: center;
+  padding-top: 2em; }
+
+.hero__footer {
+  padding-bottom: 2em; }
+
+.hero__footer__button {
+  text-align: center;
+  font-size: 2rem; }
+
+/*uses*/
+#uses {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #40AFC9; }
+
+.uses__container {
+  padding: 2em; }
+
+.uses__container__copy h4 {
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 2rem; }
+
+@media screen and (max-width: 48em) {
+  .uses__container__copy {
+    text-align: center; } }
+.uses__container__image {
+  text-align: center; }
+
+/*howto*/
+#howto {
+  background-color: white;
+  color: #FF2D55; }
+
+.howto__container {
+  padding: 2em;
+  padding-top: 3em;
+  padding-bottom: 3em; }
+
+.howto__container__header {
+  text-align: center; }
+
+.howto__container__body {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7); }
+
+/*cta*/
+#cta {
+  background-color: #40AFC9; }
+
+.cta__container {
+  padding: 4em;
+  text-align: center; }
+
+/*footer*/
+#footer {
+  /*background-color: white;*/
+  color: black; }
+
+.footer__container {
+  padding: 2em; }
+
+.footer__container__links {
+  text-align: center; }
+  .footer__container__links li {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.87);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.5rem; }
+
+/*# sourceMappingURL=main.css.map */
